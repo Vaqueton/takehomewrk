@@ -1,0 +1,39 @@
+.container-fluid {
+    background-color: yellow;
+}
+
+header {
+    background-color: blue;
+    color: white;
+}
+
+nav {
+    background-color: green;
+}
+
+section {
+    background-color: red;
+}
+
+aside {
+    background-color: aqua;
+}
+
+.promo {
+    background-color: orange;
+    border-right: thin solid #000;
+}
+
+footer {
+    background-color: #000;
+    height: 50px;
+    color: white;
+}
+/* SHARING */
+header, .promo, nav {
+    height: 150px;
+}
+
+section, aside {
+    height: 200px;
+}
